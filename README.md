@@ -31,7 +31,7 @@ See the [Project Board](https://github.com/orgs/Visual-modelling/projects).
 
 ### **Action Points**
 
-- Read paper: Unsupervised Learning for Physical Interaction through Video Prediction
+- Read paper: [Unsupervised Learning for Physical Interaction through Video Prediction](https://arxiv.org/abs/1605.07157)
 - Dataset object for bouncing ball dataset
 - Continued work on the Convolutional Model and Transformer model from Winterbottom and Dean, respectively
 
