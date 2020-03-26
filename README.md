@@ -4,6 +4,36 @@ Repo to store high-level [issues](https://github.com/Visual-modelling/Visual-mod
 
 See the [Project Board](https://github.com/orgs/Visual-modelling/projects).
 
+## Meeting Notes: 12th March 2020
+
+### **Long Term Dependencies**
+
+- Tom mentions 4D Convolutions
+
+### **Psychological Motivation**
+
+- (See wikipedia page on Smooth Pursuit for psychological motivation)
+
+### **Initial Convolutional Model Idea**
+
+- 3D convolution across a small number of frames
+  - e.g. 5 frames, therefore 3x3x5 kernel size for 1st layer
+- Stride 2 to downsample the image progressively
+- Upsample the image back to 64x64 to produce each pixel
+- May have issues extracting features
+  - not able to produce a frame / pixel embedding
+- Noura suggests that simple next frame prediction is a heavily studied task, so this does not add anything new. It must show that useful features can be extracted to add novel contributions
+- 4D Convolutions: incorporate long term dependencies via a 4th Convolutional dimension
+
+### **Unidirectional or Masking Task**
+
+- The task itself of frame prediction is more useful than next work prediction, so a left-right transformer could be more useful vs a generative model using masking
+
+### **Action Points**
+
+- Read paper: Unsupervised Learning for Physical Interaction through Video Prediction
+- Dataset object for bouncing ball dataset
+- Continued work on the Convolutional Model and Transformer model from Winterbottom and Dean, respectively
 
 ## Meeting Notes: 5th March 2020
 
