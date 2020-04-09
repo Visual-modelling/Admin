@@ -61,3 +61,10 @@ Long term dependencies will be a problem in the future, but not within the scope
 - Hudson will incorporate the parameter space search (using the variables described above) to generate the dataset
 - Dean will look at whats required for the transformer to do the video prediction task for a sequence of 2D images (positional/temporal encodings + pixel embedding space)
 - Zheming will look at the latest techniques used in Vision for video prediction and add to literature review.
+
+## Meeting Notes: 9th April 2020
+- Tom W - Fixed bug for model (was treating images as binary)
+- Tom H - Added masking to dataset
+
+### Todo
+- Continue modelling (Some results by next week)
